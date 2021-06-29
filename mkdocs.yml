@@ -1,0 +1,46 @@
+site_name: DreamBot
+site_url: https://dreambot.ml/
+repo_url: https://github.com/dreambot-develop/docs
+edit_uri: edit/main/docs/
+repo_name: dreambot-develop/docs
+theme:
+  name: material
+  custom_dir: docs/overrides
+  logo: assets/images/logo1.jpg
+  favicon: assets/images/logo1.jpg
+  language: ru
+  font:
+     text: Rubik
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+  features:
+    - navigation.expand
+    - navigation.indexes
+    - header.autohide
+plugins:
+  - search:
+      lang:
+      #  - en
+        - ru
+#extra:
+#    alternate:
+#      - name: Russian
+#        link: /ru/
+#        lang: ru
+#
+#      - name: English
+#        link: /en/
+#        lang: en
+markdown_extensions:
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - meta
+  - toc:
+      permalink: '#'

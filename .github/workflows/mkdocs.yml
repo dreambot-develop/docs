@@ -1,6 +1,5 @@
-
 # documentation: https://help.github.com/en/articles/workflow-syntax-for-github-actions
-name: deploy tutorial (only on push to main branch)
+name: Build docs
 on:
   push:
     branches: main

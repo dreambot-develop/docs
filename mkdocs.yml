@@ -19,7 +19,6 @@ theme:
       toggle:
         icon: material/weather-night
   features:
-    - navigation.expand
     - navigation.indexes
     - header.autohide
     - navigation.top
